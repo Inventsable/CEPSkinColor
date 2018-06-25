@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:300,400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <!-- Custom Stylesheets -->
+    <link href="./reset.css" type="text/css" rel="stylesheet">
+    <link href="./adobeStyle.css" type="text/css" rel="stylesheet">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <title>SkinColor</title>
+  </head>
+  <body>
+
+  <div id="content" class="container-fluid">
+    <ul id="infoList" class="info">
+      <li><span class="bold">System:</span> <span id="textSystem">None</span></li>
+      <li><span class="bold">AppName:</span> <span class="double"><span id="textAppName">None</span> <span id="textAppVersion">None</span></span></li>
+      <li><span class="bold">Document:</span> <span id="textDoc">None</span></li>
+      <li id="path"><span id="textPath">None</span></li>
+      <br>
+      <li><span class="bold">Theme:</span> <span id="textTheme">None</span></li>
+      <li><span class="bold">PanelBG:</span> <span id="textPanelBG">None</span></li>
+      <li><span class="bold">Color:</span> <span id="textColor">None</span></li>
+      <li><span class="bold">Border:</span> <span id="textBorder">None</span></li>
+      <li><span class="bold">InputBG Idle:</span> <span id="textInputBGIdle">None</span></li>
+      <li><span class="bold">InputBG Active:</span> <span id="textInputBGActive">None</span></li>
+      <li><span class="bold">Highlight:</span> <span id="textHighlight">None</span></li>
+      <li><span class="bold">Selected:</span> <span id="textSelected">None</span></li>
+      <li><span class="bold">Disabled:</span> <span id="textDisabled">None</span></li>
+      <li><span class="bold">Active:</span> <span id="textActive">None</span></li>
+      <br>
+      <li><span class="bold">Font:</span> <span id="textFont">None</span></li>
+      <li><span class="bold">Font Size:</span> <span id="textFontSize">None</span></li>
+      <li><span class="bold">Font Color:</span> <span id="textFontColor">None</span></li>
+      <li><span class="bold">Disabled Font:</span> <span id="textDisabledColor">None</span></li>
+    </ul>
+
+    <div class="adobe-toolbar">
+      <div id="btn1" class="adobe-btn adobe-btn-tool">
+        <span class="fa fa-eyedropper fa-lg"></span>
+      </div>
+      <div id="btn2" class="adobe-btn-toggle adobe-hover">
+        <span class="fa fa-adjust fa-lg"></span>
+      </div>
+      <div id="btn3" class="adobe-btn-toggle adobe-focus">
+        <span class="fa fa-magic fa-lg"></span>
+      </div>
+      <div id="btn4" class="adobe-btn-toggle adobe-hide">
+        <span class="fa fa-magnet fa-lg"></span>
+      </div>
+    </div>
+    <div class="inputRow">
+      <div class="adobe-inputGroup-num">
+        <input class="adobe-input adobe-input-num" id="input1" type="text" name="test1" value="1 px">
+      </div>
+      <input class="adobe-input adobe-focus adobe-input-md" id="input2" type="text" name="test2" value="focus">
+      <input class="adobe-input adobe-hide adobe-input-md" id="input3" type="text" name="test3" value="hide">
+    </div>
+
+  </div>
+
+<!-- Scripts -->
+  <!-- Bootstrap -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> -->
+  <!-- required -->
+  <script src="./bodymovin.js" type="text/javascript"></script>
+  <script src="./CSInterface.js" type="text/javascript"></script>
+  <script src="./exLibs.js" type="text/javascript"></script>
+  <!-- <script src="./cookies.js" type="text/javascript"></script> -->
+  <script src="./appColor.js" type="text/javascript"></script>
+  <script src="./adobeMirror.js" type="text/javascript"></script>
+  <script src="./main.js" type="text/javascript"></script>
+  <script src="./flyoutmenu.js" type="text/javascript"></script>
+  </body>
+</html>

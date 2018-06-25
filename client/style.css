@@ -1,0 +1,54 @@
+html {
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  --nav-color: #161616;
+  --bg-color: #232323;
+  background-color: var(--bg-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  min-width: 170px;
+}
+
+#content {
+  margin: 1rem 0px;
+}
+
+#path {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info {
+  list-style: none;
+}
+
+li {
+  margin-top: .25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn2, #btn3, #btn4 {
+  cursor: default;
+}
+
+#input2, #input3 {
+  cursor: default;
+  user-select: none;
+}
+
+#input2 {
+  width: 2.75rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inputRow {
+  margin-top: .65rem;
+  display: flex;
+  justify-content: center;
+}
