@@ -12,3 +12,4 @@ loadJSX(`json2.jsx`);
 loadJSX(`${appInfo.name}.jsx`);
 console.log(`Loading for ${appInfo.name}`);
 console.log(appInfo);
+console.log(appSkin);
